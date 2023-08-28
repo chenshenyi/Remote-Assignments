@@ -24,6 +24,10 @@
 - `git reset HEAD`: 將 staging area 清空。
 - `git reset --hard`: 將 working directory 的檔案還原到最後一次 commit 的狀態。
 
+### `git commit`
+
+將 staging area 的檔案加到 local repository。
+
 ### `git log`
 
 查看 commit 的紀錄。
