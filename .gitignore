@@ -4,6 +4,9 @@ PDF/
 # Setting files of vscode
 .vscode/
 
+# My translotor from markdown to code
+markdown2code.py
+
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
