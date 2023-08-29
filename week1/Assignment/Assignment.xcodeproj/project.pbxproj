@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		2BE854462A9D92B100AB6A63 /* Part2-Basics.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "Part2-Basics.md"; path = "../Part2-Basics.md"; sourceTree = "<group>"; };
-		2BE854472A9D92B100AB6A63 /* Part1-Git-and-GitHub.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "Part1-Git-and-GitHub.md"; path = "../Part1-Git-and-GitHub.md"; sourceTree = "<group>"; };
-		2BE854482A9D92C500AB6A63 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2B842EB72A9E020A005629D2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2B842EB92A9E02C1005629D2 /* Part1-Git-and-GitHub.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "Part1-Git-and-GitHub.md"; path = "../Part1-Git-and-GitHub.md"; sourceTree = "<group>"; };
+		2B842EBC2A9E09DD005629D2 /* Part2-Basics.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "Part2-Basics.md"; path = "../Part2-Basics.md"; sourceTree = "<group>"; };
 		2BE854492A9D92FC00AB6A63 /* Part2-Basics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Part2-Basics.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -17,9 +17,9 @@
 		2BE8543F2A9D929D00AB6A63 = {
 			isa = PBXGroup;
 			children = (
-				2BE854482A9D92C500AB6A63 /* README.md */,
-				2BE854472A9D92B100AB6A63 /* Part1-Git-and-GitHub.md */,
-				2BE854462A9D92B100AB6A63 /* Part2-Basics.md */,
+				2B842EB72A9E020A005629D2 /* README.md */,
+				2B842EB92A9E02C1005629D2 /* Part1-Git-and-GitHub.md */,
+				2B842EBC2A9E09DD005629D2 /* Part2-Basics.md */,
 				2BE854492A9D92FC00AB6A63 /* Part2-Basics.playground */,
 			);
 			sourceTree = "<group>";
