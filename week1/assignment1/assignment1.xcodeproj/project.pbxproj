@@ -6,23 +6,32 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXFileReference section */
+		2BE854342A9D8F7300AB6A63 /* Part2-Basics.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "Part2-Basics.md"; path = "../Part2-Basics.md"; sourceTree = "<group>"; };
+		2BE854352A9D8F7300AB6A63 /* Part1-Git-and-GitHub.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "Part1-Git-and-GitHub.md"; path = "../Part1-Git-and-GitHub.md"; sourceTree = "<group>"; };
+		2BE854372A9D8FFF00AB6A63 /* Part2-Basics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Part2-Basics.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
-		2BC4F3C12A9D8E2C00FF338A = {
+		2BE8542B2A9D8F0A00AB6A63 = {
 			isa = PBXGroup;
 			children = (
+				2BE854372A9D8FFF00AB6A63 /* Part2-Basics.playground */,
+				2BE854352A9D8F7300AB6A63 /* Part1-Git-and-GitHub.md */,
+				2BE854342A9D8F7300AB6A63 /* Part2-Basics.md */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXProject section */
-		2BC4F3C22A9D8E2C00FF338A /* Project object */ = {
+		2BE8542C2A9D8F0A00AB6A63 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1430;
 			};
-			buildConfigurationList = 2BC4F3C52A9D8E2C00FF338A /* Build configuration list for PBXProject "assignment1" */;
+			buildConfigurationList = 2BE8542F2A9D8F0A00AB6A63 /* Build configuration list for PBXProject "assignment1" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -30,7 +39,7 @@
 				en,
 				Base,
 			);
-			mainGroup = 2BC4F3C12A9D8E2C00FF338A;
+			mainGroup = 2BE8542B2A9D8F0A00AB6A63;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -39,13 +48,13 @@
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		2BC4F3C62A9D8E2C00FF338A /* Debug */ = {
+		2BE854302A9D8F0A00AB6A63 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Debug;
 		};
-		2BC4F3C72A9D8E2C00FF338A /* Release */ = {
+		2BE854312A9D8F0A00AB6A63 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
@@ -54,16 +63,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2BC4F3C52A9D8E2C00FF338A /* Build configuration list for PBXProject "assignment1" */ = {
+		2BE8542F2A9D8F0A00AB6A63 /* Build configuration list for PBXProject "assignment1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2BC4F3C62A9D8E2C00FF338A /* Debug */,
-				2BC4F3C72A9D8E2C00FF338A /* Release */,
+				2BE854302A9D8F0A00AB6A63 /* Debug */,
+				2BE854312A9D8F0A00AB6A63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2BC4F3C22A9D8E2C00FF338A /* Project object */;
+	rootObject = 2BE8542C2A9D8F0A00AB6A63 /* Project object */;
 }
