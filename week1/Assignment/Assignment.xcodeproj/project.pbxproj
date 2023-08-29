@@ -1,0 +1,80 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		2BE854462A9D92B100AB6A63 /* Part2-Basics.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "Part2-Basics.md"; path = "../Part2-Basics.md"; sourceTree = "<group>"; };
+		2BE854472A9D92B100AB6A63 /* Part1-Git-and-GitHub.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "Part1-Git-and-GitHub.md"; path = "../Part1-Git-and-GitHub.md"; sourceTree = "<group>"; };
+		2BE854482A9D92C500AB6A63 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2BE854492A9D92FC00AB6A63 /* Part2-Basics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Part2-Basics.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2BE8543F2A9D929D00AB6A63 = {
+			isa = PBXGroup;
+			children = (
+				2BE854482A9D92C500AB6A63 /* README.md */,
+				2BE854472A9D92B100AB6A63 /* Part1-Git-and-GitHub.md */,
+				2BE854462A9D92B100AB6A63 /* Part2-Basics.md */,
+				2BE854492A9D92FC00AB6A63 /* Part2-Basics.playground */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		2BE854402A9D929D00AB6A63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 2BE854432A9D929D00AB6A63 /* Build configuration list for PBXProject "Assignment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BE8543F2A9D929D00AB6A63;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		2BE854442A9D929D00AB6A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		2BE854452A9D929D00AB6A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BE854432A9D929D00AB6A63 /* Build configuration list for PBXProject "Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE854442A9D929D00AB6A63 /* Debug */,
+				2BE854452A9D929D00AB6A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BE854402A9D929D00AB6A63 /* Project object */;
+}
