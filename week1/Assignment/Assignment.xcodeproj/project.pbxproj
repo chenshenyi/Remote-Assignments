@@ -10,6 +10,8 @@
 		2B842EB72A9E020A005629D2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2B842EB92A9E02C1005629D2 /* Part1-Git-and-GitHub.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "Part1-Git-and-GitHub.md"; path = "../Part1-Git-and-GitHub.md"; sourceTree = "<group>"; };
 		2B842EBC2A9E09DD005629D2 /* Part2-Basics.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "Part2-Basics.md"; path = "../Part2-Basics.md"; sourceTree = "<group>"; };
+		2B842EBD2A9E11E3005629D2 /* Part3-Collection.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = "Part3-Collection.md"; path = "../Part3-Collection.md"; sourceTree = "<group>"; };
+		2B842EBE2A9E1204005629D2 /* Part3-Collection.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Part3-Collection.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2BE854492A9D92FC00AB6A63 /* Part2-Basics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Part2-Basics.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -21,6 +23,8 @@
 				2B842EB92A9E02C1005629D2 /* Part1-Git-and-GitHub.md */,
 				2B842EBC2A9E09DD005629D2 /* Part2-Basics.md */,
 				2BE854492A9D92FC00AB6A63 /* Part2-Basics.playground */,
+				2B842EBD2A9E11E3005629D2 /* Part3-Collection.md */,
+				2B842EBE2A9E1204005629D2 /* Part3-Collection.playground */,
 			);
 			sourceTree = "<group>";
 		};
