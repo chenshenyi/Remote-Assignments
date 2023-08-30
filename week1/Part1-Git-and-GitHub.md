@@ -1,10 +1,16 @@
 # Part1: Git & GitHub
 
-## 1. Create a public GitHub repository named `Remote-Assignments`
+## Q1
 
-[chenshenyi/Remote-Assignments](https://github.com/chenshenyi/Remote-Assignments)
+Create a public GitHub repository named `Remote-Assignments`
 
-## 2. Explain the following commands
+----
+
+連結：[chenshenyi/Remote-Assignments](https://github.com/chenshenyi/Remote-Assignments)
+
+## Q2
+
+Explain the following commands
 
 ### `git status`
 
@@ -79,10 +85,18 @@
 
 將 commit 加上 tag，通常用來標記 release 的版本或某些重要的 commit。
 
-## 3. Describe how to establish a GitHub repo and how to push code to GitHub
+## Q3
+
+Describe how to establish a **GitHub repo** and how to **push** code to GitHub
+
+----
 
 1. 在 GitHub 上建立一個 repository
 2. `git init` 在本地端建立一個 repository
 3. `git add -A` 將所有檔案加到 staging area
 4. `git remote add <remote-name> <remote-url>` 在本地端新增 remote repository
 5. `git push -uf <remote-name> <branch-name>` 將當前 branch 的 commit 強制推到 remote repository，並設定 upstream
+
+----
+
+更為便捷的做法是直接打開 **VSCode** 點擊 `publish to GitHub` 功能。

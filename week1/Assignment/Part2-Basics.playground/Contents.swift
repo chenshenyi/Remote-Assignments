@@ -1,5 +1,3 @@
-// import UIKit
-
 // #2
 let pi: Double = Double.pi
 

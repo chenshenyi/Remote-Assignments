@@ -1,5 +1,3 @@
-import UIKit
-
 // #1
 var myFriends: [String] = []
 
