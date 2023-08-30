@@ -1,3 +1,7 @@
+//: [Previous](@previous)
+
+import Foundation
+
 // #1
 let lottoNumbers = [10, 9, 8, 7, 6, 5]
 for i in lottoNumbers.count - 3..<lottoNumbers.count {
@@ -85,3 +89,6 @@ default:
 print(jobLevels[jobLevel, default: "We don't have this job"])
 
 print(jobLevels[jobLevel] ?? "We don't have this job")
+
+
+//: [Next](@next)

@@ -1,3 +1,7 @@
+//: [Previous](@previous)
+
+import Foundation
+
 // #2
 let pi: Double = Double.pi
 
@@ -30,3 +34,5 @@ phoneNumber2 = "Hello world."
 // #9
 var salary: Int = 22_000
 salary += 28_000
+
+//: [Next](@next)

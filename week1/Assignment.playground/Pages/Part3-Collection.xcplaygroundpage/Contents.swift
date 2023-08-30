@@ -1,3 +1,5 @@
+import UIKit
+
 // #1
 var myFriends: [String] = []
 
@@ -46,4 +48,3 @@ var emptyDictionary: [String: Int] = [:]
 
 // #13
 myCountryNumber.removeValue(forKey: "US")
-

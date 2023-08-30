@@ -1,6 +1,6 @@
 # Part3: Collection
 
-文中的代碼片段也可以在[Part3-Collection.playground](Assignment/Part3-Collection.playground/Contents.swift)中查看。
+文中的代碼片段也可以在[Part3-Collection.playground](Assignment.playground/Pages/Part3-Collection.xcplaygroundpage/Contents.swift)中查看。
 
 ## Q1
 

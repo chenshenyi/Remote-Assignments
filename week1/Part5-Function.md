@@ -1,6 +1,6 @@
 # Part5: Function
 
-文中的代碼片段也可以在[Part5-Function.playground](Assignment/Part5-Function.playground/Contents.swift)中查看。
+文中的代碼片段也可以在[Part5-Function.playground](Assignment.playground/Pages/Part5-Function.xcplaygroundpage/Contents.swift)中查看。
 
 ## Q1
 

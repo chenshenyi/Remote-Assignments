@@ -1,6 +1,6 @@
 # Part2: Basics
 
-文中的代碼片段也可以在[Part2-Basics.playground](Assignment/Part2-Basics.playground/Contents.swift)中查看。
+文中的代碼片段也可以在[Part2-Basics.playground](Assignment.playground/Pages/Part2-Basics.xcplaygroundpage/Contents.swift)中查看。
 
 ## Q1
 

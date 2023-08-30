@@ -1,6 +1,6 @@
 # Part 4: Control Flow
 
-文中的代碼片段也可以在[Part4-Control-Flow.playground](Assignment/Part4-Control-Flow.playground/Contents.swift)中查看。
+文中的代碼片段也可以在[Part4-Control-Flow.playground](Assignment.playground/Pages/Part4-Control-Flow.xcplaygroundpage/Contents.swift)中查看。
 
 ## Q1
 
