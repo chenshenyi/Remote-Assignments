@@ -1,14 +1,14 @@
-# Part1: Git & GitHub
+/*:# Part1: Git & GitHub
 
-文中的代碼片段也可以在[Part1-Git-and-GitHub.playground](Assignment.playground/Pages/Part1-Git-and-GitHub.xcplaygroundpage/Contents.swift)中查看。
+----
 
 ## Q1
 
 Create a public GitHub repository named `Remote-Assignments`
 
-----
+- 連結：[chenshenyi/Remote-Assignments](https://github.com/chenshenyi/Remote-Assignments)
 
-連結：[chenshenyi/Remote-Assignments](https://github.com/chenshenyi/Remote-Assignments)
+----
 
 ## Q2
 
@@ -87,11 +87,11 @@ Explain the following commands
 
 將 commit 加上 tag，通常用來標記 release 的版本或某些重要的 commit。
 
+----
+
 ## Q3
 
 Describe how to establish a **GitHub repo** and how to **push** code to GitHub
-
-----
 
 1. 在 GitHub 上建立一個 repository
 2. `git init` 在本地端建立一個 repository
@@ -99,6 +99,5 @@ Describe how to establish a **GitHub repo** and how to **push** code to GitHub
 4. `git remote add <remote-name> <remote-url>` 在本地端新增 remote repository
 5. `git push -uf <remote-name> <branch-name>` 將當前 branch 的 commit 強制推到 remote repository，並設定 upstream
 
-----
-
-更為便捷的做法是直接打開 **VSCode** 點擊 `publish to GitHub` 功能。
+- 更為便捷的做法是直接打開 **VSCode** 點擊 `publish to GitHub` 功能。
+*/

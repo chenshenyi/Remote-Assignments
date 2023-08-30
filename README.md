@@ -2,6 +2,8 @@
 
 This repo contains assignments for the remote course of AppWorks School Batch #22 iOS class.
 
+Playground 中的作業有部分 markdown 語法，建議用 `Editor -> Show Rendered Markup` 來閱讀。
+
 - [Week 1](week1/README.md)
   - [Part1. Git and GitHub](week1/Part1-Git-and-GitHub.md)
   - [Part2. Basics](week1/Part2-Basics.md)
