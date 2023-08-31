@@ -50,6 +50,10 @@ Explain the following commands
 - `git branch -v`: 查看所有 branch 的狀態，包含最後一次 commit 的 hash。
 - `git branch -vv`: 查看所有 branch 的狀態，包含最後一次 commit 的 hash 和 upstream。
 
+### `git merge`
+
+- `git merge <branch-name>`: 將 `<branch-name>` 的 commit 合併到當前 branch。
+
 ### `git push`
 
 將 commit 推到 remote repository。
