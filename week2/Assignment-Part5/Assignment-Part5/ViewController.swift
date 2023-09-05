@@ -8,7 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
     let topLabel = UILabel()
     let midLabel = UILabel()
     let button = UIButton()
@@ -22,7 +21,7 @@ class ViewController: UIViewController {
         "This book is a treatise on the theory of ethics, very popular during the.",
         "The first line of Lorem Ipsum, Lorem ipsum dolor sit amet..",
     ]
-    var bgColor:[String : UIColor] = [:]
+    var bgColor: [String: UIColor] = [:]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,12 +29,12 @@ class ViewController: UIViewController {
         // 為了讓每次都有不同的顏色，我們先把每個字串都對應到一個顏色
         // 考慮到題目要求字體需要是白色，Hint 中 RGB 的方式建構很難掌握對比度
         // 改用 HSB 以方便控制亮度
-        for (i, t) in text.enumerated() {
+        for (i, ithText) in text.enumerated() {
             let randColor = UIColor(hue: CGFloat(i) / CGFloat(text.count),
                                     saturation: 0.9,
                                     brightness: 0.4,
                                     alpha: 1)
-            bgColor[t] = randColor
+            bgColor[ithText] = randColor
         }
         
         // 為初始畫面隨機選一個
@@ -90,10 +89,9 @@ class ViewController: UIViewController {
         button.bottomAnchor.constraint(equalTo: margins.bottomAnchor,
                                        constant: -50).isActive = true
         button.leadingAnchor.constraint(equalTo: margins.leadingAnchor,
-                                         constant: 40).isActive = true
+                                        constant: 40).isActive = true
         button.trailingAnchor.constraint(equalTo: margins.trailingAnchor,
-                                          constant: -40).isActive = true
-        
+                                         constant: -40).isActive = true
     }
     
     // 由於 randomChooseOne 要傳給 #selector()，因此必須加上 @objc
@@ -107,4 +105,3 @@ class ViewController: UIViewController {
         view.backgroundColor = randColor?.value
     }
 }
-
