@@ -29,12 +29,15 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     view.backgroundColor = .white
+    view.addSubview(appWorksSchoolLable)
+    view.addSubview(segmentControl)
+    view.addSubview(loginView)
+    view.addSubview(button)
 
     // MARK: appWorksSchoolLable
     appWorksSchoolLable.text = "AppWorks School"
     appWorksSchoolLable.font = .systemFont(ofSize: 40)
     appWorksSchoolLable.sizeToFit()
-    view.addSubview(appWorksSchoolLable)
 
     // MARK: segmentControl
     mode = .login
@@ -42,11 +45,9 @@ class ViewController: UIViewController {
     segmentControl.addTarget(self,
                              action: #selector(modeChanged),
                              for: .valueChanged)
-    view.addSubview(segmentControl)
 
     // MARK: loginView
     loginView.setDelegate(delegate: self)
-    view.addSubview(loginView)
 
     // MARK: button
     button.setTitleColor(.white, for: .normal)
@@ -54,34 +55,35 @@ class ViewController: UIViewController {
     button.addTarget(self,
                      action: #selector(buttonClicked),
                      for: .touchUpInside)
-    view.addSubview(button)
 
-    // MARK: - appWorksSchoolLable Constraints
-    appWorksSchoolLable.translatesAutoresizingMaskIntoConstraints = false
-    appWorksSchoolLable.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-    appWorksSchoolLable.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor,
-                                             constant: 80).isActive = true
-    // MARK: segmentControl Constraints
-    segmentControl.translatesAutoresizingMaskIntoConstraints = false
-    segmentControl.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-    segmentControl.topAnchor.constraint(equalTo: appWorksSchoolLable.bottomAnchor,
-                                        constant: 70).isActive = true
-    segmentControl.widthAnchor.constraint(greaterThanOrEqualToConstant: 150).isActive = true
+    // MARK: - Constraints
+    view.subviews.forEach { $0.translatesAutoresizingMaskIntoConstraints = false }
 
-    // MARK: loginView Constraints
-    loginView.translatesAutoresizingMaskIntoConstraints = false
-    loginView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-    loginView.topAnchor.constraint(equalTo: segmentControl.bottomAnchor,
-                                   constant: 40).isActive = true
-    loginView.heightAnchor.constraint(equalToConstant: 125).isActive = true
-    loginView.widthAnchor.constraint(equalToConstant: 255).isActive = true
+    NSLayoutConstraint.activate([
+      // MARK: appWorksSchoolLable Constraints
+      appWorksSchoolLable.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+      appWorksSchoolLable.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor,
+                                               constant: 80),
 
-    // MARK: button Constraints
-    button.translatesAutoresizingMaskIntoConstraints = false
-    button.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-    button.topAnchor.constraint(equalTo: loginView.bottomAnchor, constant: 50).isActive = true
-    button.widthAnchor.constraint(equalToConstant: 235).isActive = true
-    button.heightAnchor.constraint(equalToConstant: 30).isActive = true
+      // MARK: segmentControl Constraints
+      segmentControl.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+      segmentControl.topAnchor.constraint(equalTo: appWorksSchoolLable.bottomAnchor,
+                                          constant: 70),
+      segmentControl.widthAnchor.constraint(greaterThanOrEqualToConstant: 150),
+
+      // MARK: loginView Constraints
+      loginView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+      loginView.topAnchor.constraint(equalTo: segmentControl.bottomAnchor,
+                                     constant: 40),
+      loginView.heightAnchor.constraint(equalToConstant: 125),
+      loginView.widthAnchor.constraint(equalToConstant: 255),
+
+      // MARK: button Constraints
+      button.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+      button.topAnchor.constraint(equalTo: loginView.bottomAnchor, constant: 50),
+      button.widthAnchor.constraint(equalToConstant: 235),
+      button.heightAnchor.constraint(equalToConstant: 30),
+    ])
   }
 
   @objc func modeChanged() {

@@ -23,30 +23,32 @@ class LoginView: UIView {
     clipsToBounds = false
     addSubview(warningLabel)
     addSubview(grayStackView)
-
-    grayStackView.translatesAutoresizingMaskIntoConstraints = false
-    grayStackView.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
-    grayStackView.topAnchor.constraint(equalTo: topAnchor).isActive = true
-    grayStackView.leftAnchor.constraint(equalTo: leftAnchor).isActive = true
-    grayStackView.rightAnchor.constraint(equalTo: rightAnchor).isActive = true
-
+    self.subviews.forEach { $0.translatesAutoresizingMaskIntoConstraints = false }
+    
+    // MARK: warningLabel
     warningLabel.text = ""
     warningLabel.textColor = .red
     warningLabel.font = .systemFont(ofSize: 12)
-    warningLabel.translatesAutoresizingMaskIntoConstraints = false
-    warningLabel.rightAnchor.constraint(equalTo: grayStackView.rightAnchor).isActive = true
-    warningLabel.bottomAnchor.constraint(equalTo: grayStackView.topAnchor,
-                                         constant: -5).isActive = true
+    
+    // MARK: - Constraints
+    NSLayoutConstraint.activate([
+      // MARK: grayStackView constraints
+      grayStackView.bottomAnchor.constraint(equalTo: bottomAnchor),
+      grayStackView.topAnchor.constraint(equalTo: topAnchor),
+      grayStackView.leftAnchor.constraint(equalTo: leftAnchor),
+      grayStackView.rightAnchor.constraint(equalTo: rightAnchor),
+      
+      // MARK: warningLabel constraints
+      warningLabel.rightAnchor.constraint(equalTo: grayStackView.rightAnchor),
+      warningLabel.bottomAnchor.constraint(equalTo: grayStackView.topAnchor,constant: -5)
+    ])
+    
   }
-
-  func setDelegate(delegate: UIViewController) {
-    guard let textFieldDelegate = delegate as? UITextFieldDelegate else {
-      return
-    }
-
+  
+  func setDelegate(delegate: UITextFieldDelegate) {
     grayStackView.textFieldStackView.arrangedSubviews.forEach { textField in
       let textField = textField as? UITextField
-      textField?.delegate = textFieldDelegate
+      textField?.delegate = delegate
     }
   }
 
