@@ -32,6 +32,8 @@ class TextFieldStackView: UIStackView {
     addArrangedSubview(accountTextField)
     addArrangedSubview(passwordTextField)
     addArrangedSubview(checkTextField)
+    accountTextField.autocapitalizationType = .none
+    accountTextField.autocorrectionType = .no
     passwordTextField.textContentType = .oneTimeCode
     passwordTextField.isSecureTextEntry = true
     checkTextField.textContentType = .oneTimeCode
