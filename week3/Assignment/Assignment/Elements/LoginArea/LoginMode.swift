@@ -7,9 +7,9 @@
 
 import Foundation
 
-/// 控制GrayStackView的模式
+/// 控制 LoginArea 的模式
 ///
-/// 如果是login模式，checkLabel和checkTextField都是disabled
+/// 如果是 login 模式，checkLabel 和 checkTextField 都是 disabled
 enum LoginMode: String {
   case login = "Log in"
   case signup = "Sign up"

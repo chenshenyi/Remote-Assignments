@@ -7,16 +7,11 @@
 
 import UIKit
 
+/// 會根據 LoginFieldState 來調整顏色和字體
 class LoginTextField: UITextField {
-  enum LoginState {
-    case normal
-    case error
-    case disabled
-  }
-
-  var loginState: LoginState = .normal {
+  var loginFieldState: LoginFieldState = .normal {
     didSet {
-      switch loginState {
+      switch loginFieldState {
       case .normal:
         self.isEnabled = true
         self.backgroundColor = .white
