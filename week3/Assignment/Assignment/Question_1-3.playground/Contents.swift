@@ -28,9 +28,7 @@ anotherClosure
 //: The functionality of this **closure** is to verify if the input is odd or not. Return `true` if
 // it’s odd and vice versa.
 
-var isValueOdd: (Int) -> Bool = { value in
-  value % 2 == 1
-}
+var isValueOdd: (Int) -> Bool = { $0 % 2 == 1 }
 
 isValueOdd(3)
 
@@ -58,7 +56,9 @@ func printTriangle(layers: Int) {
 }
 
 printTriangle(layers: 5)
-/// PS. 這種寫法相比迴圈可以讓我們在未來更容易地改變輸出的格式，像是：
+
+// PS. 這種寫法相比迴圈可以讓我們在未來更容易地改變輸出的格式，像是：
+
 func triangle(layers: Int) -> [String] {
   (1 ... layers).map { String(repeating: "*", count: $0) }
 }
